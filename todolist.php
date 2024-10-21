@@ -152,29 +152,6 @@
 
         // Close the database connection
         mysqli_close($con);
-         /*
-    <?php if (!empty($tasks)): ?>
-        <ul class="task-list">
-        <?php foreach ($tasks as $task): ?>
-            <li class="task-item <?php echo $task['completed'] ? 'completed' : ''; ?>">
-                <span><?php echo htmlspecialchars($task['task_text']); ?></span>
-                <div>
-                    <form method="POST" style="display:inline;">
-                        <input type="hidden" name="toggle" value="<?php echo $task['id']; ?>">
-                        <button type="submit" class="delete-btn">Toggle</button>
-                    </form>
-                    <form method="POST" style="display:inline;">
-                        <input type="hidden" name="delete" value="<?php echo $task['id']; ?>">
-                        <button type="submit" class="delete-btn">Delete</button>
-                    </form>
-                </div>
-            </li>
-        <?php endforeach; ?>
-        </ul>
-    <?php else: ?>
-        <p>No tasks yet. Add a task to get started!</p>
-    <?php endif; ?>
-    */
 
         ?>
     </div>
